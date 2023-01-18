@@ -1,3 +1,47 @@
+/* body {
+  background-color: #47ff94;
+} */
+:root {
+  /* Fonts */
+
+  /* Text colors */
+  --main-txt-cl: #434455;
+  --accent-txt-cl: #2e2f42;
+  --subtle-txt-cl: #8e8f99;
+  --light-txt-cl: #f4f4fd;
+  --modal-txt-cl: #2e2f42;
+  --hero-txt-cl: #2e2f42;
+  --brand-txt-cl: #4d5ae5;
+  --pressed-txt-cl: #404bbf;
+  --dark-txt-cl: #2e2f42;
+
+  --saccess: #31d0aa;
+  --saccess-75: rgba(49, 208, 170, 0.75);
+  --saccess-50: rgba(49, 208, 170, 0.5);
+  --saccess-10: rgba(49, 208, 170, 0.1);
+
+  /* Backgrounds colors */
+  --main-bg-cl: #434455;
+  --accent-bg-cl: #2e2f42;
+  --subtle-bg-cl: #8e8f99;
+  --light-bg-cl: #f4f4fd;
+  --modal-bg-cl: #2e2f42;
+  --hero-bg-cl: #2e2f42;
+  --brand-bg-cl: #4d5ae5;
+  --pressed-bg-cl: #404bbf;
+  --dark-bg-cl: #2e2f42;
+
+  /* others */
+}
+
 body {
-  background-color: tomato;
+  color: var(--main-txt-cl);
+}
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+.btn {
+  color: currentColor;
+  cursor: pointer;
 }
