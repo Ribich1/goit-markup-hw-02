@@ -16,6 +16,7 @@
   --dark-txt-cl: #2e2f42;
   --btn-txt-cl: #ffffff;
   --link-txt-cl: #2e2f42;
+  --hero-txt-cl: #ffffff;
 
   --access: #31d0aa;
   --access-75: rgba(49, 208, 170, 0.75);
@@ -41,7 +42,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -50,27 +50,27 @@ h6 {
   color: var(--dark-txt-cl);
 }
 
-.h1 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
+/* h1 */
+.main-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
-  background-color: black; /*временно подсветил */
-}
+  color: var(--hero-txt-cl);
 
-.h2 {
-  font-weight: 700;
+  background-color: black;
+  /*временно подсветил */
+}
+/* h2 */
+.title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.h3 {
+/* h3 */
+.title-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -78,7 +78,7 @@ h6 {
 }
 
 p {
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
