@@ -17,6 +17,7 @@
   --btn-txt-cl: #ffffff;
   --link-txt-cl: #2e2f42;
   --hero-txt-cl: #ffffff;
+  --footer-txt-cl: #e7e9fc;
 
   --access: #31d0aa;
   --access-75: rgba(49, 208, 170, 0.75);
@@ -40,6 +41,10 @@
 body {
   color: var(--main-txt-cl);
   font-family: "Roboto", sans-serif;
+}
+
+nav .current {
+  color: var(--pressed-txt-cl);
 }
 
 h2,
@@ -77,11 +82,16 @@ h6 {
   letter-spacing: 0.02em;
 }
 
-p {
+/* p */
+.item {
   /* font-weight: 400; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--main-txt-cl);
+}
+.item-footer {
+  color: var(--footer-txt-cl);
 }
 
 .link {
@@ -101,8 +111,6 @@ p {
   color: var(--pressed-txt-cl);
 }
 .contacts {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -112,7 +120,7 @@ p {
   color: var(--btn-txt-cl);
   background-color: var(--brand-bg-cl);
   cursor: pointer;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -153,4 +161,7 @@ p {
 }
 .span-dark {
   color: var(--modal-txt-cl);
+}
+.list {
+  list-style-type: none;
 }
